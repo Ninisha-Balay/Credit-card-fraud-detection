@@ -1,5 +1,7 @@
 **Credit Card Fraud Detection Using Machine Learning** 
 
+This project is based on my published research paper: Credit Card Fraud Detection using Machine Learning (https://doi.org/10.34218/IJMLC_03_01_002), which explores machine learning techniques for identifying fraudulent credit card transactions.
+
 
 **Overview:**
 
