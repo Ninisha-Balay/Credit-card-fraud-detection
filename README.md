@@ -1,20 +1,87 @@
 **Credit Card Fraud Detection Using Machine Learning**
 
    This project aims to detect fraudulent credit card transactions using various machine learning algorithms. It compares their performance based on accuracy and can be integrated into real-time applications like banking systems and e-commerce platforms.
-   
-**Table of Contents**
-1.Overview
-2.Dataset
-3.Features
-4.Methodology
-5.Algorithms Implemented
-6.Results
-7.Installation
-8.How to Run
-9.Future Scope
-10.References
 
 **Overview**
   Credit card fraud has become a serious issue due to the rapid growth of e-commerce and online transactions. This system applies machine learning models to classify transactions as fraudulent (1) or legitimate (0) using features from anonymized transaction data.
+  The goal is to achieve high detection accuracy while minimizing false positives.
 
-The goal is to achieve high detection accuracy while minimizing false positives.
+**Dataset**
+Source: Kaggle Credit Card Fraud Detection Dataset (https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+Total transactions: 284,807
+Fraudulent transactions: 492
+Non-fraudulent transactions: 284,315
+Features: 31 columns (28 PCA-transformed “V” features + Time, Amount, Class)
+ There are no missing values in the dataset.
+
+**Features**
+Time: Time between the first and current transaction.
+
+Amount: Transaction amount.
+
+Class: Output variable (0 = Normal, 1 = Fraud).
+
+V1–V28: Anonymized principal components from PCA transformation.
+
+Methodology
+Data collection and preprocessing (CSV format from Kaggle).
+
+Splitting data into training and testing sets (ratios: 64:36, 73:27, and 82:18).
+
+Building classification models using ML algorithms.
+
+Evaluating models by accuracy, based on true/false positives and negatives.
+
+Comparing models via a bar graph.
+
+Algorithms Implemented
+Algorithm	Description	Accuracy (Approx.)
+Random Forest	Ensemble of decision trees reducing overfitting issues	99.82%
+Logistic Regression	Predicts fraud probability using sigmoid-based binary classification	97.78%
+Decision Tree	Graph-based classification using entropy and information gain	97.14%
+Naive Bayes	Probabilistic classifier using Bayes’ theorem	99.32%
+Passive Aggressive	Online-learning algorithm for large-scale and imbalanced datasets	99.82% (Best)
+Results
+The Passive Aggressive Algorithm demonstrated the highest accuracy across multiple data split ratios (64%, 73%, 82%).
+
+Closely followed by Random Forest and Naive Bayes.
+
+The implementation demonstrates strong potential for real-world financial fraud detection.
+
+Bar graphs comparing model accuracy are displayed in the GUI after execution.
+
+Installation
+Clone this repository and install dependencies.
+
+bash
+git clone https://github.com/yourusername/CreditCardFraudDetection.git
+cd CreditCardFraudDetection
+pip install -r requirements.txt
+Ensure Python 3.8+ and packages such as numpy, pandas, tkinter, matplotlib, and scikit-learn are installed.
+
+How to Run
+Run the main Python file:
+
+bash
+python CreditCardFraud.py
+Use the graphical interface to:
+
+Upload Kaggle dataset (creditcard.csv)
+
+Split data into selected ratios
+
+Execute algorithm buttons (Random Forest, Logistic Regression, etc.)
+
+View results and accuracy comparisons.
+
+Future Scope
+Integrate deep learning architectures such as LSTM or autoencoders.
+
+Real-time fraud detection using streaming pipelines (Kafka/Spark).
+
+Model deployment as a microservice via Flask or FastAPI.
+
+Feature optimization and combination of ensemble classifiers for improved detection.
+
+References
+Key references include studies and benchmark papers from IEEE Access, IJERT, and Kaggle datasets, as detailed in the thesis (19305-Mtech-major-final.pdf).
