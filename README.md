@@ -83,27 +83,27 @@ Ensure Python 3.8+ and packages such as numpy, pandas, tkinter, matplotlib, and 
 **How to Run:**
 1. Run the main Python file:
 
-python CreditCardFraud.py
+   python CreditCardFraud.py
 
 2. Use the graphical interface to:
 
-. Upload Kaggle dataset (creditcard.csv)
+   . Upload Kaggle dataset (creditcard.csv)
 
-. Split data into selected ratios
+   . Split data into selected ratios
 
-. Execute algorithm buttons (Random Forest, Logistic Regression, etc.)
+   . Execute algorithm buttons (Random Forest, Logistic Regression, etc.)
 
-. View results and accuracy comparisons.
+   . View results and accuracy comparisons.
 
 **Future Scope:**
 
-. Integrate deep learning architectures such as LSTM or autoencoders.
+   . Integrate deep learning architectures such as LSTM or autoencoders.
 
-. Real-time fraud detection using streaming pipelines (Kafka/Spark).
+   . Real-time fraud detection using streaming pipelines (Kafka/Spark).
 
-. Model deployment as a microservice via Flask or FastAPI.
+   . Model deployment as a microservice via Flask or FastAPI.
 
-. Feature optimization and combination of ensemble classifiers for improved detection.
+   . Feature optimization and combination of ensemble classifiers for improved detection.
 
 **References:**
 Key references include studies and benchmark papers from IEEE Access, IJERT, and Kaggle datasets, as detailed in the thesis (19305-Mtech-major-final.pdf).
