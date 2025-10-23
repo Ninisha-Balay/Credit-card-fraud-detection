@@ -73,8 +73,10 @@ Passive Aggressive ->	Online-learning algorithm for large-scale and imbalanced d
 Clone this repository and install dependencies.
 
 bash
-git clone https://github.com/yourusername/CreditCardFraudDetection.git
+git clone https://github.com/Ninisha-Balay/CreditCardFraudDetection.git
+
 cd CreditCardFraudDetection
+
 pip install -r requirements.txt
 
 Ensure Python 3.8+ and packages such as numpy, pandas, tkinter, matplotlib, and scikit-learn are installed.
