@@ -72,7 +72,7 @@ Passive Aggressive ->	Online-learning algorithm for large-scale and imbalanced d
 
 Clone this repository and install dependencies.
 
-git clone https://github.com/Ninisha-Balay/CreditCardFraudDetection.py
+git clone https://github.com/Ninisha-Balay/Credit-card-fraud-detection/blob/main/CreditCardFraud.py
 
 cd CreditCardFraudDetection
 
