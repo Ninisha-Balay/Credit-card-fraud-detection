@@ -1,6 +1,7 @@
 **Credit Card Fraud Detection Using Machine Learning**
 
-   This project aims to detect fraudulent credit card transactions using various machine learning algorithms. It compares their performance based on accuracy and can be integrated into real-time applications like banking systems and e-commerce platforms.
+      This project is based on my published research paper: [Credit Card Fraud Detection using Machine Learning](https://doi.org/10.34218/IJMLC_03_01_002), which explores machine learning techniques for identifying fraudulent credit card transactions.
+      It compares their performance based on accuracy and can be integrated into real-time applications like banking systems and e-commerce platforms.
 
 **Overview:**
 
@@ -47,7 +48,7 @@ There are no missing values in the dataset.
 
 **Algorithms Implemented**
 
-**Algorithm**->**Description**->**Accuracy (Approx.)**
+**Algorithm** ->**Description** -> **Accuracy (Approx.)**
 
 Random Forest -> Ensemble of decision trees reducing overfitting issues	-> 99.82%
 
@@ -106,4 +107,4 @@ Ensure Python 3.8+ and packages such as numpy, pandas, tkinter, matplotlib, and 
    . Feature optimization and combination of ensemble classifiers for improved detection.
 
 **References:**
-Key references include studies and benchmark papers from IEEE Access, IJERT, and Kaggle datasets, as detailed in the thesis (19305-Mtech-major-final.pdf).
+Key references in paper , and Kaggle datasets, as detailed in the thesis (Report.pdf).
