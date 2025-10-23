@@ -108,5 +108,6 @@ Ensure Python 3.8+ and packages such as numpy, pandas, tkinter, matplotlib, and 
    . Feature optimization and combination of ensemble classifiers for improved detection.
 
 **References:**
-Key references in paper , and Kaggle datasets, as detailed in the thesis (Report.pdf).
-https://doi.org/10.34218/IJMLC_03_01_002
+
+ 1.**Balay Ninisha.** "Credit Card Fraud Detection using Machine Learning." **International Journal of Machine Learning and Cybernetics (IJMLC)** [Read the full paper here](https://doi.org/10.34218/IJMLC_03_01_002)
+ 2.  Kaggle Credit Card Fraud Detection Dataset: [https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
