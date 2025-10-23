@@ -50,34 +50,42 @@ There are no missing values in the dataset.
 **Algorithm**->**Description**->**Accuracy (Approx.)**
 
 Random Forest -> Ensemble of decision trees reducing overfitting issues	-> 99.82%
-Logistic Regression	Predicts fraud probability using sigmoid-based binary classification	97.78%
-Decision Tree	Graph-based classification using entropy and information gain	97.14%
-Naive Bayes	Probabilistic classifier using Bayes’ theorem	99.32%
-Passive Aggressive	Online-learning algorithm for large-scale and imbalanced datasets	99.82% (Best)
-Results
-The Passive Aggressive Algorithm demonstrated the highest accuracy across multiple data split ratios (64%, 73%, 82%).
 
-Closely followed by Random Forest and Naive Bayes.
+Logistic Regression -> Predicts fraud probability using sigmoid-based binary classification	-> 97.78%
 
-The implementation demonstrates strong potential for real-world financial fraud detection.
+Decision Tree ->	Graph-based classification using entropy and information gain -> 	97.14%
 
-Bar graphs comparing model accuracy are displayed in the GUI after execution.
+Naive Bayes -> Probabilistic classifier using Bayes’ theorem -> 99.32%
 
-Installation
+Passive Aggressive ->	Online-learning algorithm for large-scale and imbalanced datasets	 -> 99.82% (Best)
+
+**Results:**
+   The Passive Aggressive Algorithm demonstrated the highest accuracy across multiple data split ratios (64%, 73%, 82%).
+
+   Closely followed by Random Forest and Naive Bayes.
+
+   The implementation demonstrates strong potential for real-world financial fraud detection.
+
+   Bar graphs comparing model accuracy are displayed in the GUI after execution.
+
+**Installation:**
+
 Clone this repository and install dependencies.
 
 bash
 git clone https://github.com/yourusername/CreditCardFraudDetection.git
 cd CreditCardFraudDetection
 pip install -r requirements.txt
+
 Ensure Python 3.8+ and packages such as numpy, pandas, tkinter, matplotlib, and scikit-learn are installed.
 
-How to Run
-Run the main Python file:
+**How to Run:**
+1. Run the main Python file:
 
 bash
 python CreditCardFraud.py
-Use the graphical interface to:
+
+2. Use the graphical interface to:
 
 Upload Kaggle dataset (creditcard.csv)
 
