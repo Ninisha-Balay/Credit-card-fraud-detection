@@ -60,9 +60,9 @@ Naive Bayes -> Probabilistic classifier using Bayes’ theorem -> 99.32%
 Passive Aggressive ->	Online-learning algorithm for large-scale and imbalanced datasets	 -> 99.82% (Best)
 
 **Results:**
-   The Passive Aggressive Algorithm demonstrated the highest accuracy across multiple data split ratios (64%, 73%, 82%).
+   The **Passive Aggressive Algorithm** demonstrated the highest accuracy across multiple data split ratios (64%, 73%, 82%).
 
-   Closely followed by Random Forest and Naive Bayes.
+   Closely followed by **Random Forest** and **Naive Bayes**.
 
    The implementation demonstrates strong potential for real-world financial fraud detection.
 
@@ -72,7 +72,6 @@ Passive Aggressive ->	Online-learning algorithm for large-scale and imbalanced d
 
 Clone this repository and install dependencies.
 
-bash
 git clone https://github.com/Ninisha-Balay/CreditCardFraudDetection.py
 
 cd CreditCardFraudDetection
@@ -84,27 +83,27 @@ Ensure Python 3.8+ and packages such as numpy, pandas, tkinter, matplotlib, and 
 **How to Run:**
 1. Run the main Python file:
 
-bash
 python CreditCardFraud.py
 
-2. Use the graphical interface to:
+3. Use the graphical interface to:
 
-Upload Kaggle dataset (creditcard.csv)
+. Upload Kaggle dataset (creditcard.csv)
 
-Split data into selected ratios
+. Split data into selected ratios
 
-Execute algorithm buttons (Random Forest, Logistic Regression, etc.)
+. Execute algorithm buttons (Random Forest, Logistic Regression, etc.)
 
-View results and accuracy comparisons.
+. View results and accuracy comparisons.
 
-Future Scope
-Integrate deep learning architectures such as LSTM or autoencoders.
+**Future Scope:**
 
-Real-time fraud detection using streaming pipelines (Kafka/Spark).
+. Integrate deep learning architectures such as LSTM or autoencoders.
 
-Model deployment as a microservice via Flask or FastAPI.
+. Real-time fraud detection using streaming pipelines (Kafka/Spark).
 
-Feature optimization and combination of ensemble classifiers for improved detection.
+. Model deployment as a microservice via Flask or FastAPI.
 
-References
+. Feature optimization and combination of ensemble classifiers for improved detection.
+
+**References:**
 Key references include studies and benchmark papers from IEEE Access, IJERT, and Kaggle datasets, as detailed in the thesis (19305-Mtech-major-final.pdf).
