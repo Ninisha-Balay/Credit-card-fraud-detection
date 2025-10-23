@@ -5,23 +5,17 @@
 **Overview:**
 
   Credit card fraud has become a serious issue due to the rapid growth of e-commerce and online transactions.
-  
-  This system applies machine learning models to classify transactions as fraudulent (1) or legitimate (0) using features from anonymized transaction data.
+   This system applies machine learning models to classify transactions as fraudulent (1) or legitimate (0) using features from anonymized transaction data.
   The goal is to achieve high detection accuracy while minimizing false positives.
 
 **Dataset:**
 
 Source: Kaggle Credit Card Fraud Detection Dataset (https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
-
 Total transactions: 284,807
-
 Fraudulent transactions: 492
-
 Non-fraudulent transactions: 284,315
-
 Features: 31 columns (28 PCA-transformed “V” features + Time, Amount, Class)
-
- There are no missing values in the dataset.
+There are no missing values in the dataset.
 
 **Features:**
 
