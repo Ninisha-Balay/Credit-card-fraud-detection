@@ -5,6 +5,7 @@
 **Overview:**
 
   Credit card fraud has become a serious issue due to the rapid growth of e-commerce and online transactions.
+  
   This system applies machine learning models to classify transactions as fraudulent (1) or legitimate (0) using features from anonymized transaction data.
   The goal is to achieve high detection accuracy while minimizing false positives.
 
@@ -24,13 +25,13 @@ Features: 31 columns (28 PCA-transformed “V” features + Time, Amount, Class)
 
 **Features:**
 
-Time: Time between the first and current transaction.
+**Time:** Time between the first and current transaction.
 
-Amount: Transaction amount.
+**Amount:** Transaction amount.
 
-Class: Output variable (0 = Normal, 1 = Fraud).
+**Class:** Output variable (0 = Normal, 1 = Fraud).
 
-V1–V28: Anonymized principal components from PCA transformation.
+**V1–V28:** Anonymized principal components from PCA transformation.
 
 **Methodology:**
 
