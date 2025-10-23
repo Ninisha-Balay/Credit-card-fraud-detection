@@ -1,6 +1,6 @@
 **Credit Card Fraud Detection Using Machine Learning**
 
-      This project is based on my published research paper: (DOI:https://doi.org/10.34218/IJMLC_03_01_002), which explores machine learning techniques for identifying fraudulent credit card transactions.
+      which explores machine learning techniques for identifying fraudulent credit card transactions.
       
       It compares their performance based on accuracy and can be integrated into real-time applications like banking systems and e-commerce platforms.
 
@@ -109,3 +109,4 @@ Ensure Python 3.8+ and packages such as numpy, pandas, tkinter, matplotlib, and 
 
 **References:**
 Key references in paper , and Kaggle datasets, as detailed in the thesis (Report.pdf).
+https://doi.org/10.34218/IJMLC_03_01_002
