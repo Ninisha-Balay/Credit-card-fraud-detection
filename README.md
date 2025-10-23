@@ -85,7 +85,7 @@ Ensure Python 3.8+ and packages such as numpy, pandas, tkinter, matplotlib, and 
 
 python CreditCardFraud.py
 
-3. Use the graphical interface to:
+2. Use the graphical interface to:
 
 . Upload Kaggle dataset (creditcard.csv)
 
