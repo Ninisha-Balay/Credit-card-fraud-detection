@@ -11,10 +11,15 @@
 **Dataset:**
 
 Source: Kaggle Credit Card Fraud Detection Dataset (https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+
 Total transactions: 284,807
+
 Fraudulent transactions: 492
+
 Non-fraudulent transactions: 284,315
+
 Features: 31 columns (28 PCA-transformed “V” features + Time, Amount, Class)
+
 There are no missing values in the dataset.
 
 **Features:**
@@ -27,21 +32,24 @@ There are no missing values in the dataset.
 
 **V1–V28:** Anonymized principal components from PCA transformation.
 
+
 **Methodology:**
 
-Data collection and preprocessing (CSV format from Kaggle).
+1.Data collection and preprocessing (CSV format from Kaggle).
 
-Splitting data into training and testing sets (ratios: 6:4, 7:3, and 8:2).
+2.Splitting data into training and testing sets (ratios: 6:4, 7:3, and 8:2).
 
-Building classification models using ML algorithms.
+3.Building classification models using ML algorithms.
 
-Evaluating models by accuracy, based on true/false positives and negatives.
+4.Evaluating models by accuracy, based on true/false positives and negatives.
 
-Comparing models via a bar graph.
+5.Comparing models via a bar graph.
 
 **Algorithms Implemented**
-Algorithm	Description	Accuracy (Approx.)
-Random Forest	Ensemble of decision trees reducing overfitting issues	99.82%
+
+**Algorithm**->**Description**->**Accuracy (Approx.)**
+
+Random Forest -> Ensemble of decision trees reducing overfitting issues	-> 99.82%
 Logistic Regression	Predicts fraud probability using sigmoid-based binary classification	97.78%
 Decision Tree	Graph-based classification using entropy and information gain	97.14%
 Naive Bayes	Probabilistic classifier using Bayes’ theorem	99.32%
