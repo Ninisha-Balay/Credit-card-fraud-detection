@@ -2,12 +2,13 @@
 
    This project aims to detect fraudulent credit card transactions using various machine learning algorithms. It compares their performance based on accuracy and can be integrated into real-time applications like banking systems and e-commerce platforms.
 
-**Overview**
+**Overview:**
 
-  Credit card fraud has become a serious issue due to the rapid growth of e-commerce and online transactions. This system applies machine learning models to classify transactions as fraudulent (1) or legitimate (0) using features from anonymized transaction data.
+  Credit card fraud has become a serious issue due to the rapid growth of e-commerce and online transactions.
+  This system applies machine learning models to classify transactions as fraudulent (1) or legitimate (0) using features from anonymized transaction data.
   The goal is to achieve high detection accuracy while minimizing false positives.
 
-**Dataset**
+**Dataset:**
 
 Source: Kaggle Credit Card Fraud Detection Dataset (https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
@@ -21,7 +22,8 @@ Features: 31 columns (28 PCA-transformed “V” features + Time, Amount, Class)
 
  There are no missing values in the dataset.
 
-**Features**
+**Features:**
+
 Time: Time between the first and current transaction.
 
 Amount: Transaction amount.
@@ -30,10 +32,11 @@ Class: Output variable (0 = Normal, 1 = Fraud).
 
 V1–V28: Anonymized principal components from PCA transformation.
 
-Methodology
+**Methodology:**
+
 Data collection and preprocessing (CSV format from Kaggle).
 
-Splitting data into training and testing sets (ratios: 64:36, 73:27, and 82:18).
+Splitting data into training and testing sets (ratios: 6:4, 7:3, and 8:2).
 
 Building classification models using ML algorithms.
 
@@ -41,7 +44,7 @@ Evaluating models by accuracy, based on true/false positives and negatives.
 
 Comparing models via a bar graph.
 
-Algorithms Implemented
+**Algorithms Implemented**
 Algorithm	Description	Accuracy (Approx.)
 Random Forest	Ensemble of decision trees reducing overfitting issues	99.82%
 Logistic Regression	Predicts fraud probability using sigmoid-based binary classification	97.78%
